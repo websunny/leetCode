@@ -3,6 +3,7 @@
  * @param {number} target
  * @return {number[]}
  */
+
 var twoSum = function(nums, target) {
     var dict = {}
     var len =nums.length
@@ -16,5 +17,3 @@ var twoSum = function(nums, target) {
       }
     }
 };
-
-console.log(twoSum([2,7,11,15],9))
